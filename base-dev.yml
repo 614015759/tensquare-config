@@ -22,3 +22,7 @@ jwt:
   config:
     key: lingzun
     ttl: 36000000
+
+
+sms:
+  ip: 127.0.0.1
