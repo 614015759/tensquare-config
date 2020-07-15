@@ -1,0 +1,18 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: tensquare-search
+  data:
+    elasticsearch:
+      cluster-nodes: 39.99.136.0:9300
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6869/eureka
+
+jwt:
+  config:
+    key: lingzun
+    ttl: 36000000
